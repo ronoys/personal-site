@@ -13,7 +13,18 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-transformer-sharp`,
+    `gatsby-plugin-catch-links`,
+    {
+      resolve: 'gatsby-source-file-system',
+      options: {
+        path: `${__dirname}/src/pages`,
+        name: 'pages',
+      },
+
+    }
+
+    `gatsby-transformer-remark`,
+    
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
