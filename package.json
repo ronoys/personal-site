@@ -16,6 +16,8 @@
     "gatsby-source-filesystem": "^2.1.0",
     "gatsby-transformer-remark": "^2.5.0",
     "gatsby-transformer-sharp": "^2.1.21",
+    "github-card": "^1.2.1",
+    "github-cards": "^1.0.4",
     "material-ui": "^0.20.2",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",

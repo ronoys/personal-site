@@ -26,10 +26,11 @@ const Menu = () => (
         <Link to="/projects">Projects</Link>
       </li>
       <li>
-        <Link to="/profiles">Profiles</Link>
+        <Link to="/profiles">Social Media</Link>
       </li>
     </ul>
   </div>
+    
 )
 
 export default Menu
