@@ -7,7 +7,7 @@ import Menu from "../components/menu"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="About Me" />
     <Menu></Menu>
     <h1>About Me</h1>
     <p>Here is some information about me.</p>

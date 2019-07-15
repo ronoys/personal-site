@@ -5,10 +5,12 @@ import SEO from "../components/seo"
 import Menu from "../components/menu";
 
 import Button from "../components/Button";
+import Gridlist from "../components/Gridlist";
+
 
 const ThirdPage = () => (
   <Layout>
-    <SEO title="Page three" />
+    <SEO title="Projects" />
     <Menu></Menu>
     <div>
     <h3>This is a heading</h3>
@@ -18,7 +20,7 @@ const ThirdPage = () => (
     <div>
 
     <Button></Button>
-
+    <Gridlist></Gridlist>
 
     </div>
     
