@@ -8,10 +8,10 @@ import Menu from "../components/menu";
 
 const ThirdPage = () => (
   <Layout>
-    <SEO title="Profiles" />
+    <SEO title="Contact" />
     <Menu></Menu>
-    <h1>Hello</h1>
-    <p>Welcome to page 3</p>
+    <h1>Contact Us</h1>
+    <p>blah</p>
 
     
     

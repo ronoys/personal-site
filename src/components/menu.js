@@ -6,7 +6,7 @@ const Menu = () => (
   <div
     class="menu"
     style={{
-      background: '#f4f4f4',
+      background: '#ebf1fa',
       paddingTop: '10px',
     }}
   >
@@ -20,13 +20,13 @@ const Menu = () => (
       }}
     >
       <li>
-        <Link to="/">About Me</Link>
+        <Link to="/">About Us</Link>
       </li>
       <li>
         <Link to="/projects">Projects</Link>
       </li>
       <li>
-        <Link to="/profiles">Social Media</Link>
+        <Link to="/profiles">Contact</Link>
       </li>
     </ul>
   </div>
