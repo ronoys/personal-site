@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 import Menu from "../components/menu";
 
 import Button from "../components/Button";
-
+import Dash from "../components/Dash";
 
 
 const ThirdPage = () => (
@@ -20,6 +20,7 @@ const ThirdPage = () => (
     <div>
 
     <Button></Button> 
+    <Dash></Dash>
     
 
     </div>

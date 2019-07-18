@@ -14,13 +14,23 @@ const useStyles = makeStyles(theme => ({
 export default function ContainedButtons() {
   const classes = useStyles();
 
+  function myFunction() {
+    //alert('The link was clicked.')
+    document.getElementById("hello").value="billy";
+  }
+
+
   return (
     <div>
-      <Button variant="contained" className={classes.button}>
+      <Button variant="contained" className={classes.button} onClick={myFunction} id="button1">
         Default
       </Button>
+      <p>Change me!</p>
       
       
     </div>
+
+
   );
 }
+
