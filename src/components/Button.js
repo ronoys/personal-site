@@ -13,10 +13,11 @@ const useStyles = makeStyles(theme => ({
 
 export default function ContainedButtons() {
   const classes = useStyles();
-
+  
   function myFunction() {
     //alert('The link was clicked.')
-    document.getElementById("hello").value="billy";
+    //document.getElementById("hello").value="billy";
+
   }
 
 
