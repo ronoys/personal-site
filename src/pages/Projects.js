@@ -1,11 +1,9 @@
 import React from "react"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Menu from "../components/menu";
-
 import Button from "../components/Button";
-import Dash from "../components/Dash";
+import ProjectsTiles from "../components/ProjectsTiles"
 
 
 const ThirdPage = () => (
@@ -16,15 +14,11 @@ const ThirdPage = () => (
     <h1>Projects</h1>
     <p>This is a paragraph.</p> 
     </div>
-    
-    <div>
-
+       
     <Button></Button> 
-    <Dash></Dash>
-    
 
-    </div>
-    
+    <ProjectsTiles></ProjectsTiles>
+      
   </Layout>
 )
 
