@@ -3,6 +3,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
+import Grid from '../components/Grid'
+
 
 const useStyles = makeStyles({
   card: {
@@ -41,6 +43,7 @@ export default function SimpleCard() {
   
   return (
     <div id="main">
+      <Grid></Grid>
         <div id="tile" style={{display: 'inline-block', padding: '20px'}}>
                 <Card className={classes.card} style={{height: '250px', padding: '10px' }}>
                 <CardContent>
@@ -58,6 +61,8 @@ export default function SimpleCard() {
                 </CardContent>
             
                  </Card>
+
+                 
 
         </div>
 

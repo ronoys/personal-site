@@ -2,8 +2,6 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import logo from './team.jpg'
-import { AutoComplete } from 'material-ui';
-
 
 const useStyles = makeStyles(theme => ({
     root: {
