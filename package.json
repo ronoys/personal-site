@@ -19,6 +19,7 @@
     "github-card": "^1.2.1",
     "github-cards": "^1.0.4",
     "material-ui": "^0.20.2",
+    "netlify-cli": "^2.11.29",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
